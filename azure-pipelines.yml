@@ -12,7 +12,6 @@ variables:
 steps:
 - bash: |
     echo "hello world"
-    displayName: 'Run a one-line script'
 
 - task: UseDotNet@2
   displayName: 'Use .NET SDK $(dotnetSdkVersion)'
